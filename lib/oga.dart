@@ -12,7 +12,7 @@ class Oga extends StatelessWidget {
     return Scaffold(
         resizeToAvoidBottomInset: false, // set it to false
         appBar: AppBar(
-          title: const Text('OGA'),
+          title: const Text('OGA '),
         ),
         body: SingleChildScrollView(
           child: Container(
@@ -77,7 +77,7 @@ class Oga extends StatelessWidget {
                       margin:
                           const EdgeInsets.only(top: 20.0, left: 20, right: 20),
                       child: ElevatedButton(
-                        child: const Text('Indicador de gestión OGA'),
+                        child: const Text('Indicador de gestión (OGA)'),
                         onPressed: _launchURL3,
                         style: ButtonStyle(
                           shape:
